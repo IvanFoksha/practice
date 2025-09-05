@@ -13,7 +13,7 @@ build:
 
 test:
 	@echo "Running tests in task1_testing..."
-	@cd task1_testing && pytest
+	@cd task1-testing && pytest
 
 clean:
 	@echo "Cleaning task1-testing..."
