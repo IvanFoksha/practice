@@ -1,5 +1,12 @@
 .PHONY: setup test clean
 
+
+start-project:
+	@echo "Starting project..."
+	@bash uv venv
+	@bash source .venv/bin/activate
+	@bash uv sync
+
 build:
 	@echo "Building task1-testing..."
 	@bash build.sh
